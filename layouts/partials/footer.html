@@ -3,9 +3,12 @@
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
-    <span> built with ♥ from charlola
-    {{- end }}
-      <!--
+    <span> Gixo ©
+        <script>
+            document.write(new Date().getFullYear());
+        </script>
+        {{- end }}
+        <!--
     <div><span> <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a> </span></div>
     <span>
         Powered by
